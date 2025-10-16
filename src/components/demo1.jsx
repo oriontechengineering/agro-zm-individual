@@ -10,7 +10,6 @@ const App = () => {
   const [currentPage, setCurrentPage] = useState('landing');
   const [authMode, setAuthMode] = useState('login');
 
-  // Sample data
   const stats = [
     { title: 'Wallet Balance', value: 'K5,430', subtitle: 'Available funds', change: '+12.5%', icon: Wallet, trend: 'up' },
     { title: 'Total Sales', value: 'K12,340', subtitle: 'This month', change: '+8.2%', icon: TrendingUp, trend: 'up' },
